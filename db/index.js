@@ -1,3 +1,4 @@
+// Call of the connection to the mySQL server established in connection.js
 const connection = require("./connection");
 
 class DB {

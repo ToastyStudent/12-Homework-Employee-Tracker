@@ -1,7 +1,9 @@
+// The Packages Required for this application's logic
 const { prompt } = require("inquirer");
 const logo = require("asciiart-logo");
 const db = require("./db");
 
+// Function Initiation Call
 init();
 
 // Display logo text, load main prompts
