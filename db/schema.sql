@@ -2,6 +2,8 @@
 -- The Department, Role, and Employee Tables are created;
 -- The Department Table's Primary Key, ID, is referenced as a foreign key in the Role Table in the form of fk_department;
 -- The Role Table's Primary Key, ID, is referenced as a foreign key in the Employee Table in the form of fk_role.
+-- The Employee Table's Primary Key, ID, CAN be referenced as a foreign key in the Employee Table in the form of fk_manager but also can be NULL
+-- As not all employees necessarily have managers/can be one themselves.
 
 DROP DATABASE IF EXISTS employees_db;
 CREATE DATABASE employees_db;
