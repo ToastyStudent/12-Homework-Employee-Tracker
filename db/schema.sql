@@ -1,7 +1,12 @@
+-- The Schema File which creates the Tables and Relationships for the database; specifically:
+-- The Department, Role, and Employee Tables are created;
+-- The Department Table's Primary Key, ID, is referenced as a foreign key in the Role Table in the form of fk_department;
+-- The Role Table's Primary Key, ID, is referenced as a foreign key in the Employee Table in the form of fk_role.
+
 DROP DATABASE IF EXISTS employees_db;
 CREATE DATABASE employees_db;
 
-USE employees;
+USE employees_db;
 
 CREATE TABLE department (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
