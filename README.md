@@ -17,7 +17,7 @@ Finally, in that same mySQL terminal one must run the command "node index" to la
 After doing so, to use the app, one must engage the prompts which show up in the terminal in order to simulate the experience of accessing an employee management system by doing any number of the functions offered.
 
 # Video Demo of App
-[A video demonstration of the Application](./)
+[A video demonstration of the Application](./12-Homework-Video-Demo.webm)
 
 # Credits
 This entire project was built using code provided by Northwestern University's Full-stack Development Coding Bootcamp TAs from the following repository:
