@@ -1,6 +1,8 @@
 // Call of the connection to the mySQL server established in connection.js
 const connection = require("./connection");
 
+// This file contains the functions called in the index.js file outside of the db folder in order to query the database
+
 class DB {
   // Keeping a reference to the connection on the class in case we need it later
   constructor(connection) {
