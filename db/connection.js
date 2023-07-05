@@ -1,11 +1,12 @@
+// This file is necessary to establish a connection to the mysql database.
 const mysql = require("mysql2");
 
 const connection = mysql.createConnection({
   host: "localhost",
-  // Your username
+  // User's Username
   user: "root",
-  // Your password
-  password: "",
+  // User's Password
+  password: "Password1",
   database: "employees"
 });
 
